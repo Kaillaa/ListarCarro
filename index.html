@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mcqueen</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>McQueen Concessionária</h1>
+            <div class="input">
+                <label for="Modelo">Modelo</label>
+                <input type="text" name="modelo" id="inModelo" placeholder="Adicione o Modelo">
+                <label for="Modelo">Preço</label>
+                <input type="number" name="preco" id="inPreco" placeholder="Adicione o preco">
+            </div>
+            <div class="button">
+                <button id="btnAdicionar" type="button" value="Adicionar Carros ">Adicionar</button>
+                <button id="btnListar" type="button" value="Listar Carros ">Listar</button>
+                <button id="btnFiltrar" type="button" value="Filtrar Carros ">Filtrar</button>
+            </div>
+            <div class="img">
+                <img id="mcQueen" src="./img/McQueen.png" alt="McQueen">
+            </div>
+            <pre id="outLista"></pre>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
